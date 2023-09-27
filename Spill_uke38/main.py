@@ -29,7 +29,7 @@ def minefelt():
 
 def start_game():
     introduction_story()
-    print("Skriv et tall mellom ")
+    
     for i in start_liste:
         print(i)
         time.sleep(SLEEP_TIME)
