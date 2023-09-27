@@ -49,5 +49,3 @@ def start():
         sti1()
     elif valgte == "nei":
         sti2()
-
-start()
