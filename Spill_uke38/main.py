@@ -23,9 +23,11 @@ def introduction_story():
     time.sleep(SLEEP_TIME)
     print("Du har nå muligheten til å velge hva du vil gjøre.")
     time.sleep(SLEEP_TIME)
+    print()
+    print()
     
 def minefelt():
-    print("Gameover")
+    print("Du tråkket på et minefelt, gameover!")
 
 def start_game():
     introduction_story()
