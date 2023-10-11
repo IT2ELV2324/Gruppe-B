@@ -8,12 +8,12 @@ import branch.sondre as sondre
 
 SLEEP_TIME = 1
 
-start_liste = ["Jeg ser to mystiske menn komme mot meg",
-               "Jeg sender melding til læreren og skriver at jeg er syk",
-               "Jeg ser en bjørn foran meg",
-               "Jeg merker jeg må pisse",
-               "Jeg går tur meg gruppen min",
-               "Jeg ser et minefelt?"]
+start_liste = ["1. Jeg ser to mystiske menn komme mot meg",
+               "2. Jeg sender melding til læreren og skriver at jeg er syk",
+               "3. Jeg ser en bjørn foran meg",
+               "4. Jeg merker jeg må pisse",
+               "5. Jeg går tur meg gruppen min",
+               "6. Jeg ser et minefelt?"]
 
 
 def introduction_story():
@@ -21,6 +21,9 @@ def introduction_story():
     time.sleep(SLEEP_TIME) 
     print("Du vet ikke helt om du har lyst til dette")
     time.sleep(SLEEP_TIME)
+
+    input("Trykk enter for å fortsette.")
+    print()
     print("Du har nå muligheten til å velge hva du vil gjøre.")
     time.sleep(SLEEP_TIME)
     print()
