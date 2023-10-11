@@ -6,7 +6,7 @@ import branch.oskar as oskar
 import branch.simen as simen
 import branch.sondre as sondre
 
-SLEEP_TIME = 1
+SLEEP_TIME = 0.75
 
 start_liste = ["1. Jeg ser to mystiske menn komme mot meg",
                "2. Jeg sender melding til læreren og skriver at jeg er syk",
