@@ -1,11 +1,12 @@
 
 import time
-from Player import *
+from player import *
 import branch.jeffer as jeffer
 import branch.martin as martin
 import branch.oskar as oskar
 import branch.simen as simen
 import branch.sondre as sondre
+
 
 SLEEP_TIME = 0.75
 
@@ -15,6 +16,9 @@ start_liste = ["1. Jeg ser to mystiske menn komme mot meg",
                "4. Jeg merker jeg må pisse",
                "5. Jeg går tur meg gruppen min",
                "6. Jeg ser et minefelt?"]
+
+spiller = Player(input("Skriv inn navn for å starte eventyret:"))
+print(spiller.name)
 
 def introduction_story():
     print("Det er gym fagdag og du skal på tur med skole gruppen din.")
