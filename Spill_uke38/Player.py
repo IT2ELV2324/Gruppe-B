@@ -4,3 +4,7 @@ class Player:
 
 """     def mindre_hp(self, hp):
         self.hp -= hp """
+
+
+spiller= Player(input("Ditt Navn:"))
+print(spiller.name)

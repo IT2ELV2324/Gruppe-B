@@ -1,5 +1,6 @@
 
 import time
+from player import *
 import branch.jeffer as jeffer
 import branch.martin as martin
 import branch.oskar as oskar
@@ -14,7 +15,6 @@ start_liste = ["1. Jeg ser to mystiske menn komme mot meg",
                "4. Jeg merker jeg må pisse",
                "5. Jeg går tur meg gruppen min",
                "6. Jeg ser et minefelt?"]
-
 
 def introduction_story():
     print("Det er gym fagdag og du skal på tur med skole gruppen din.")
