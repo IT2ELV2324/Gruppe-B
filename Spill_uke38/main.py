@@ -1,6 +1,6 @@
 
 import time
-from player import *
+from Player import *
 import branch.jeffer as jeffer
 import branch.martin as martin
 import branch.oskar as oskar
