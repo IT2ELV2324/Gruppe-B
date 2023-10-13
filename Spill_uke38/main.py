@@ -1,31 +1,40 @@
 
 import time
+from player import *
 import branch.jeffer as jeffer
 import branch.martin as martin
 import branch.oskar as oskar
 import branch.simen as simen
 import branch.sondre as sondre
 
-SLEEP_TIME = 1
 
-start_liste = ["Jeg ser to mystiske menn komme mot meg",
-               "Jeg sender melding til læreren og skriver at jeg er syk",
-               "Jeg ser en bjørn foran meg",
-               "Jeg merker jeg må pisse",
-               "Jeg går tur meg gruppen min",
-               "Jeg ser et minefelt?"]
+SLEEP_TIME = 0.75
 
+start_liste = ["1. Jeg ser to mystiske menn komme mot meg",
+               "2. Jeg sender melding til læreren og skriver at jeg er syk",
+               "3. Jeg ser en bjørn foran meg",
+               "4. Jeg merker jeg må pisse",
+               "5. Jeg går tur meg gruppen min",
+               "6. Jeg ser et minefelt?"]
+
+spiller = Player(input("Skriv inn navn for å starte eventyret:"))
+print(spiller.name)
 
 def introduction_story():
     print("Det er gym fagdag og du skal på tur med skole gruppen din.")
     time.sleep(SLEEP_TIME) 
     print("Du vet ikke helt om du har lyst til dette")
     time.sleep(SLEEP_TIME)
+
+    input("Trykk enter for å fortsette.")
+    print()
     print("Du har nå muligheten til å velge hva du vil gjøre.")
     time.sleep(SLEEP_TIME)
+    print()
+    print()
     
 def minefelt():
-    print("Gameover")
+    print("Du tråkket på et minefelt, gameover!")
 
 def start_game():
     introduction_story()

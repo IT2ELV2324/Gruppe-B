@@ -1,1 +1,1 @@
-Idk, måtte lage noe. La oss endre det senere
+For å starte spillet, må du kjøre main.py.
