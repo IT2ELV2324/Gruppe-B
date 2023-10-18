@@ -1,6 +1,5 @@
 #Branch starter her
 import time
-
 def m():
     print("--------------------")
 def alt():
@@ -24,7 +23,7 @@ def alt():
     
 DELAY = 1
 
-list = ["Du valgte 4, du begynner å gå ut i skogen vekk fra stien.", "Plutselig hører du en lyd. Kommer den ovenfra?", "Kanskje burde du gå tilbake til de andre"]
+list = ["Du valgte 4, du begynner å gå ut i skogen vekk fra stien.", "Plutselig hører du en lyd. Kommer den ovenfra?", "Kanskje burde du gå tilbake til de andre?"]
 list_1 = ["Du begynner å gå tilbake, lyden synes ikke følge etter deg", "du kommer deg trygt tilbake til stien og får en fet tur"]
 list_2 = ["Du står stille, Du blir blendet av et lys ovenfra", "Plutselig begynner du å sveve oppover", "Når du endelig treffer noe som føles som bakke ser du fortsatt ikke klart", "etter noen sekunder tilpasser synet seg, foran deg står en rar skapning", "Hallo kjære jordboer, vi er fra planeten m29", "Vi gjøre noen eksprimenter på deg, ditt offer vil være for universets beste", "Skal du prøve å rømme?"]
 list_21 = ["Du dytter karen ned og hopper ut hullet du kom fra", "Du faller i flere sekunder og lander i et tre", "Etter noen sekunder hører du romskipet fly vekk", "du løper tilbake til de andre og forteller hva som skjedde", "Ingen tror på deg"]
