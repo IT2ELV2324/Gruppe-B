@@ -23,9 +23,6 @@ start_liste = ["1. Jeg ser to mystiske menn komme mot meg",
                "5. Jeg går tur meg gruppen min",
                "6. Jeg ser et minefelt?"]
 
-spiller = Player(input("Skriv inn navn for å starte eventyret: ")) #Setter spiller navn
-print("Velkommen", spiller.name)
-
 
 #Setter opp introduksjonen til spillet
 def introduction_story():
