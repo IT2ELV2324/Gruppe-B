@@ -25,4 +25,3 @@ def start():
             print("ugyldig valg. skriv (ja) for å angripe eller (nei) for ikke")
     else:
         print("Ugyldig valg. Velg 1 for å sparke eller 2 for å slå.")
-start()
