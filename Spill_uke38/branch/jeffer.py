@@ -9,16 +9,16 @@ def start():
         print("2. Løp")
         print("3. Stå stille")
 
-        valg = input("Hva velger du? (1/2/3): ")
+        choice = input("Hva velger du? (1/2/3): ")
 
-        if valg == '1':
+        if choice== '1':
             print("Du prøver å kjempe mot dem...")
             print("Men de er for sterke for deg. Du blir banket, de raner deg og stikker av.")
             break
-        elif valg == '2':
+        elif choice == '2':
             print("Du bestemmer deg for å løpe fra dem. De er raskere enn deg og innhenter deg. Du blir ranet.")
             break
-        elif valg == '3':
+        elif choice == '3':
             print("Du velger å stå stille...")
             print("De nærmer seg deg, og dessverre, de raner deg.")
             break

@@ -8,6 +8,7 @@ import branch.martin as martin
 import branch.oskar as oskar
 import branch.simen as simen
 import branch.sondre as sondre
+import branch.luke as luke
 
 
 SLEEP_TIME = 0.75 #Konstant for mellomromet mellom hver print
@@ -67,7 +68,7 @@ def start_game():
     elif choice == '5':
         sondre.start()
     else:
-        minefelt()
+        luke.start()
 
 
 start_game() #Starter spillet
