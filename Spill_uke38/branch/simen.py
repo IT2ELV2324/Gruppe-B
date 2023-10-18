@@ -4,10 +4,21 @@ import time
 def m():
     print("--------------------")
 def alt():
-    m()
-    print("1: Ja")
-    print("2: Nei")
-    valg = input("")
+    rett = False
+    while not rett:
+        m()
+        print("1: Ja")
+        print("2: Nei")
+        valg = input("")
+        try:
+            valg = int(valg)
+            print("Du må skriv ja eller nei:")
+        except ValueError:
+            if str(valg.lower()) == "ja" or str(valg.lower()) == "nei":
+                rett = True
+            else:
+                print("Du må skrive ja eller nei")
+        
     return valg.lower()
 #stier
     
@@ -39,7 +50,7 @@ def sti21():
         time.sleep(DELAY)
 def sti22():
     print("Du døde")
-    
+
 def start():
     for i in range(len(list)):
         print(list[i])
@@ -49,3 +60,5 @@ def start():
         sti1()
     elif valgte == "nei":
         sti2()
+
+start()
