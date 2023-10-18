@@ -1,4 +1,4 @@
-#Branch starter her
+#Greinen til Martin starter her
 def start():
     print("-------------------------")
     print("Du sendte melding til læreren på teams og får en tommel opp.")
@@ -14,7 +14,7 @@ def start():
         bli_hjemme()
     
 
-
+#Sti nr. 1
 def eventyr():
     print("-----------------------")
     print("Du dro ut på eventyr uten å si noe til familien din.")
@@ -29,13 +29,13 @@ def eventyr():
     else:
         eventyr_del2()
 
-
+#Sti nr. 2 
 def bli_hjemme():
     print("---------------------")
     print("Du velger å bli hjemme siden du ikke gadd å stikke på eventyr")
     print("Du drar på skolen igjen etter høstferien og livet fortsetter som vanlig")
 
-
+#Sti nr. 1.1
 def eventyr_del2():
     print()
     print("Du flytter til Tyskland og blir værende der resten av livet")
@@ -43,6 +43,7 @@ def eventyr_del2():
     print("De besøker deg jevnlig og er fornøyd med at du fulgte drømmen din")
     print("Du får kone, barn og lever til du blir 127 år gammel")
 
+#Sti nr. 1.2
 def dra_hjem():
     print()
     print("Du dro hjem fra Tyskland med første fly mulig")
