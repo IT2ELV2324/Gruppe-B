@@ -1,4 +1,6 @@
-
+"""
+Importerer tidsmodulen, player class og de forskjellige greinene
+"""
 import time
 from player import *
 import branch.jeffer as jeffer
@@ -8,8 +10,11 @@ import branch.simen as simen
 import branch.sondre as sondre
 
 
-SLEEP_TIME = 0.75
+SLEEP_TIME = 0.75 #Konstant for mellomromet mellom hver print
 
+""" 
+Liste over de forskjellige greinene.
+"""
 start_liste = ["1. Jeg ser to mystiske menn komme mot meg",
                "2. Jeg sender melding til læreren og skriver at jeg er syk",
                "3. Jeg ser en bjørn foran meg",
@@ -17,11 +22,11 @@ start_liste = ["1. Jeg ser to mystiske menn komme mot meg",
                "5. Jeg går tur meg gruppen min",
                "6. Jeg ser et minefelt?"]
 
-spiller = Player(input("Skriv inn navn for å starte eventyret: "))
+spiller = Player(input("Skriv inn navn for å starte eventyret: ")) #Setter spiller navn
 print("Velkommen", spiller.name)
 
 
-
+#Setter opp introduksjonen til spillet
 def introduction_story():
     print("Det er gym fagdag og du skal på tur med skole gruppen din.")
     time.sleep(SLEEP_TIME) 
@@ -34,10 +39,14 @@ def introduction_story():
     time.sleep(SLEEP_TIME)
     print()
     print()
-    
+
+
+#En alternativ vei dersom du skriver 6, eller et ugyldig input argument.   
 def minefelt():
     print("Du tråkket på et minefelt, gameover!")
 
+
+#Start funksjonen til spillet
 def start_game():
     introduction_story()
     
@@ -60,7 +69,8 @@ def start_game():
     else:
         minefelt()
 
-start_game()
+
+start_game() #Starter spillet
 
 print()
-print(f"{spiller.name}, du endte opp med {spiller.xp} XP!")
+print(f"{spiller.name}, du endte opp med {spiller.xp} XP!") #Printer ut spiller resultater til slutt
